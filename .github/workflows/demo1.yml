@@ -10,7 +10,7 @@ on:
     branches:
       - main  #push to main
     paths-ignore:
-      - '.gitub/workflows/*'      
+      - '.github/workflows/*'      
     
 jobs:
   deploy:
