@@ -10,7 +10,7 @@ describe('MainContent', () => {
 
     expect(screen.getByRole('button')).toBeInTheDocument();
   });
-//Adding random comment
+//Adding random comment..
   it('should show the help area after clicking the button', async () => {
     render(<MainContent />);
 
