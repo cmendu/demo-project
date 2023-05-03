@@ -3,7 +3,14 @@ on:
   pull_request:
     types: 
       - opened
+    branches:
+      - main  #push to main
   workflow_dispatch:
+  push:
+    branches:
+      - main  #push to main
+    paths-ignore:
+      - '.gitub/workflows/*'      
     
 jobs:
   deploy:
